@@ -1,0 +1,263 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: antiquewhite;
+  font-family: "Times New Roman", Times, serif;
+}
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 2px;
+  border: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  font-style: italic;
+  border: 3px solid black;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+h1:hover {
+  color: white;
+  background-color: black;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
+}
+#h21 {
+  text-indent: 15px;
+  text-decoration: underline;
+  color: rgb(0, 0, 0);
+}
+#h22 {
+  color: rgb(0, 0, 0);
+  padding: 12px;
+  width: 98%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  border-left: none;
+  border-right: none;
+  font-size: 30px;
+  margin-left: 4px;
+}
+#h23 {
+  font-size: 20px;
+  text-decoration: underline;
+  color: rgb(0, 0, 0);
+}
+ul {
+  color: rgb(0, 0, 0);
+}
+.at {
+  color: black;
+}
+/* hover of nav a */
+.at:hover {
+  text-decoration: underline;
+}
+div {
+  padding: 5px;
+  margin: 3px;
+  border: 5px;
+}
+.flex {
+  margin: 5px;
+  padding: 5px;
+}
+.Q {
+  display: flex;
+  padding: 43px;
+  height: 500px;
+  width: 200px;
+  margin: 34px;
+  border: 2px solid black;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(255 255 255 / 58%);
+}
+.I {
+  height: 300px;
+}
+.I:hover {
+  height: 320px;
+  border: 2px solid black;
+  transition: all 0.2s ease-out;
+  box-shadow: 10px 5px 5px black;
+}
+.logo img {
+  padding: 0px 0px;
+  margin: 0px;
+  width: 75px;
+  border-radius: 3px;
+}
+.kk {
+  margin-right: 35px;
+}
+.kk ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.kk ul li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  gap: 50px;
+}
+.logo {
+  padding: 5px;
+  margin: 5px;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
+.Q:hover {
+  background-color: rgb(218, 213, 213);
+  box-shadow: rgba(51, 51, 51, 0.692) 10px 5px 5px;
+  color: aliceblue;
+}
+.rr {
+  height: 60px;
+  display: flex;
+  gap: 30px;
+  width: auto;
+}
+.rr:hover {
+  color: rgb(0, 0, 0);
+}
+.rr li:hover {
+  color: rgb(0, 0, 0);
+}
+p {
+  font-style: italic;
+  color: rgb(0, 0, 0);
+}
+div button {
+  border: none;
+  width: 100px;
+  background-color: rgb(156, 154, 154);
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+}
+div button:hover {
+  background-color: black;
+  color: white;
+}
+.F ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  gap: 50px;
+}
+ul {
+  list-style: none;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+div a {
+  color: white;
+  text-decoration: none;
+}
+div.container a:visited {
+  color: black;
+}
+div.container a:hover {
+  background-color: black;
+  color: white;
+}
+footer {
+  background-color: rgb(255, 250, 231);
+  padding: 0%;
+  margin: 0%;
+}
+div.container a {
+  color: black;
+}
+h4 {
+  margin-left: 38px;
+}
+.uppercase{
+  text-transform:uppercase;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+/* responsive queries */
+@media (max-width: 750px) {
+  .kk {
+    display: none;
+  }
+
+}
+@media (max-width: 350px) {
+  h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 2px;
+    border: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
+    color: rgb(0, 0, 0);
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    border: 3px solid black;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+  .F ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    gap: 50px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  .Q {
+    display: flex;
+    padding: 21.5px;
+    height: 250px;
+    width: 100px;
+    margin: 17px;
+    border: 2px solid black;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(255 255 255 / 58%);
+  }
+  .I {
+    height: 150px;
+  }
+  #h23 {
+    font-size: 12px;
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+  }
+  p {
+    font-size: 9px;
+  }
+  div button {
+    width: 60px;
+    font-size: 9px;
+  }
+}
